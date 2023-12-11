@@ -1,0 +1,16 @@
+.navbar{
+    justify-content: space-between;
+}
+.navbar-toggler:focus{
+    background-color: #fff;
+}
+.logo{
+        min-width: 25px;
+        max-height: 50px;
+}
+.social-icons{
+    justify-content: end ;
+    margin-left: 1.5rem;   
+    
+    
+}   
