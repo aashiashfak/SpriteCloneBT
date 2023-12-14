@@ -1,8 +1,8 @@
-.navbar{
-    justify-content: space-between;
+html{
+    font-size: 16px;
 }
-.navbar-toggler:focus{
-    background-color: #fff;
+.navbar{
+
 }
 .logo{
         min-width: 25px;
@@ -11,6 +11,135 @@
 .social-icons{
     justify-content: end ;
     margin-left: 1.5rem;   
-    
-    
-}   
+}
+
+.carousel-inner{
+    margin-top: -28px;
+}
+.form{
+    position: relative;
+    top: -5px;
+}
+.carousel-item{
+    height: 80vh;
+    width: 80hv;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;     
+}
+.vid{
+      width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+}
+#form-custom{
+    outline: solid 1px #ffd100;
+}
+.fig-text{
+    font-size: 6vw;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0cap;
+}
+.foot-link{
+ text-decoration: none;
+ color: #fff;
+}
+.foot-link:hover{
+    color: black;
+}
+footer li{
+    list-style-type: none;
+}
+.foot-2-text{
+    font-size: 0.7rem;
+}
+.text-a{
+    font-size: 10px;
+}
+.coockie{
+    position: fixed;
+    bottom:2vh;
+    left: 2%;
+    z-index: 4;
+}
+.bi:hover{
+  color: rgb(224, 154, 23);
+}
+.shop-now-btn{
+    background-color: #ffd100;
+    width: 19rem;
+    font-size: 2vw;
+}
+.shop-now-btn:hover{
+    background-color: #fff;
+    color: green;
+}
+.intro-text-p{
+    font-size: 5vw;
+}
+.products-can,.products-text,.card,.product-card{
+    background-color: #000;
+}
+.ex-btn{
+    font-size: 1.9vh;
+}
+.ex-btn:hover{
+    opacity: 0.5;;
+}
+.dr{
+    width: -webkit-fill-available;
+    text-align: start;
+}
+.overflowset{
+    overflow: scroll;
+}
+.close-btn-modal{
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 94%;
+    z-index: 3;
+    font-size: 1rem;
+    filter: invert(1);
+    }
+.modal-btn-head-head{
+    position: relative;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.head-link:hover{
+    color: #000;
+}
+.form-btn-1{
+    width: -webkit-fill-available;
+    color: #fff;
+    background-color: #dc3545;
+}
+.form-btn-1:hover{
+  background-color: #000;
+  color:#dc3545;
+}
+.ft-text-1:hover{
+    color: #000;
+}
+
+
+.intro-text-c{
+    font-size: 4vw;
+}
+.pr-title{
+     font-size: 2.7vw;
+}
+.cr-title{
+    font-size: 3vw;
+}
+.cr-sub-title{
+    font-size: 2.9vw;
+}
+.cr-para{
+ font-size: 1.7vw;   
+}

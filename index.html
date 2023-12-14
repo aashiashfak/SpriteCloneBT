@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FANTA</title>
+    <title>SPRITE</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://www.sprite.com/content/dam/nagbrands/us/sprite/en/home/same-sprite.png">
@@ -14,56 +14,475 @@
 
     <!-- header -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-success p-3 fixed-top" >
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-success  sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand mx-auto" href="#">
+    <a class="navbar-brand mx-auto" href="index.html">
         <img src="https://www.sprite.com/content/dam/nagbrands/us/sprite/en/home/same-sprite.png" alt="Logo"
             class="logo d-inline-block align-text-top">
     </a>
-       <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-5">
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">Sprite Zero Sugar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">The Creators</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fw-bold" href="#">Buy Now</a>
-                </li>
-            </ul>
-        </div>
-        <diV class="social-icons collapse navbar-collapse" id="navbarNav">  
-            <a href="#">
-                <img class="ms-2" src="Images/facebook.png" alt="">
-            </a>
-            <a href="#">
-                <img class="ms-2" src="Images/instagram.png" alt="">
-            </a>
-            <a href="#">
-                <img class="ms-2" src="Images/spotify.png" alt="">
-            </a>
-            <a href="#">
-                <img class="ms-2" src="Images/twitter.png" alt="">
-            </a>
-            <a href="#">
-                <img class="ms-2" src="Images/youtube.png" alt="">
-            </a>
-        </diV>
-        <diV>
-            <i class="bi bi-person-fill ms-3"></i>
-        </diV>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-5">
+            <li class="nav-item">
+                <a class="nav-link text-light fw-bold head-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fw-bold head-link" href="#">Sprite Zero Sugar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fw-bold head-link" href="creators.html">The Creators</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fw-bold head-link" href="#" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Buy Now</a>
+            </li>
+        </ul>
+    </div>
+    <diV class="social-icons collapse navbar-collapse" id="navbarNav">
+        <a href="#">
+            <img class="ms-2" src="Images/facebook.png" alt="">
+        </a>
+        <a href="#">
+            <img class="ms-2" src="Images/instagram.png" alt="">
+        </a>
+        <a href="#">
+            <img class="ms-2" src="Images/spotify.png" alt="">
+        </a>
+        <a href="#">
+            <img class="ms-2" src="Images/twitter.png" alt="">
+        </a>
+        <a href="#">
+            <img class="ms-2" src="Images/youtube.png" alt="">
+        </a>
+    </diV>
+    <diV class="pe-2">
+        <i class="bi bi-person-fill ms-3"></i>
+    </diV>
 </nav>
+
+
+
+
+
+
+<button class="coockie btn btn-danger btn-lg "><i class="bi bi-cookie " style="font-size: 3vh;"></i></button>
+
+    
+    
+
+
+          <!---- Adding carousel -------------->
  
 
 
-<!-- Add Bootstrap JS (optional, if you need to use Bootstrap components that require JavaScript) -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+         <video autoplay="true" loop class="vid" src="Video/sprite-wsc-teaser-desktop.mp4" class="d-block w-100"></video>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/Hero-Sprite-2023-Desktop02.webp" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="Images/original-D2C-GB_SpriteFenix_TwoItemEditorial-Image_070223-121431.png" class="d-block w-100 img-fluid" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<!-----form part  --->
+<div class="container-fluid form bg-danger p-5">
+    <div class="row justify-content-sm-center bd-danger ">
+        <div class="col-sm-6 bg-danger text-light">
+            <h1>‘Tis The Season To Spice Things Up</h1>
+            <p class="small fw-bold">Sign up to be the first to know when the official flavor of the holidays hits shelves. Sprite Winter
+                Spiced Cranberry
+                and Winter Spiced Cranberry Zero Sugar will be here soon.</p>
+            <form>
+                <label for="email" class="form-label fw-bold">Email Address*</label>
+                <div class="has-validation">
+                    <input class="form-control rounded-5 has-validation" id="form-custom" type="email " required>
+                </div>
+                <div class="invalid-feedback">
+                    Please enter your e-mail address.
+                </div>
+                <label for="date" class="form-label fw-bold">Date of Birth*</label>
+                    <div class="container">
+                        <div class="row pb-3">
+                            <div class="col m-0 g-0">
+                                <select class="form-select rounded-5">
+                                    <option>MONTH</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                            </div>
+                            <div class="col m-0 g-0">
+                                <select class="form-select rounded-5">
+                                    <option>DAY</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <div class="col m-0 g-0">
+                                <select class="form-select rounded-5">
+                                    <option>YEAR</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="1900">1900</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label small fw-bold" for="invalidCheck">
+                        I agree to The Coca-Cola® Company's <a class="text-white" href="#">Terms of Use</a> and <a class="text-white" href="#">Privacy Policy</a>*
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+                <p class="fw-bold small"> This site is protected by reCAPTCHA and the Google <a class="text-light" href="#">Privacy Policy</a> and<a class="text-light" href="#">Terms of service</a> apply.</p>
+                <button class="rounded-5 border-1 border-white py-2 fw-bold form-btn-1">JOIN THE LIST</button>
+            </form>
+        </div>
+    </div>
+</div>
+    
+
+<!-------- figure part ------------>
+<figure>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 pt-5 px-5 pb-1 p-md-2 ">
+                <p class="text-success fig-text text-md-f1">Made with clear
+                    plastic to help this
+                    bottle be re-made.</p>
+            </div>
+            <div class="col-md-6">
+                <img class=" pt-3 pt-lg-0 img-fluid "
+                    src="Images/all-clear-from-here.png"
+                    alt="">
+            </div>
+        </div>
+    </div>     
+</figure>
+
+
+<!------------footer - 1 ---------------->
+ 
+<footer class="bg-success py-5 text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ">
+                
+                <img  class="foot-logo img-fluid" src="https://www.sprite.com/content/dam/nagbrands/us/sprite/en/home/same-sprite.png " alt="">
+            </div>
+            <div class="mx-auto col-md-4  text-center p-3">
+                
+                <h4 class="fw-bold d-inline-block ">CONNECT WITH US</h4>
+                <diV class="social-icons navbar-collapse" id="">
+                     <a href="#">
+                        <img class="ms-2" src="Images/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="ms-2" src="Images/instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="ms-2" src="Images/spotify.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="ms-2" src="Images/twitter.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="ms-2" src="Images/youtube.png" alt="">
+                    </a>
+                </diV>
+            </div>
+            <div class="col-md-4">
+                <ul >
+                    <h4 class="text-md-center d-inline-block ">PRODUCTS</h4><br>
+                    <li><a class="foot-link" href="#">SPRITE</a></li>
+                    <li><a class="foot-link" href="#">SPRITE ZERO SUGAR</a></li>
+                    <li><a class="foot-link" href="#">SPRITE LYMONADE</a></li>
+                    <li><a class="foot-link" href="#">SPRITE CHERRY</a></li>
+                    <li><a class="foot-link" href="#">SPRITE TROPICAL MIX</a></li>
+                    <li><a class="foot-link" href="#">SPRITE WINTER SPICED CRANBERRY</a></li>
+                    <li><a class="foot-link" href="#">SPRITE WINTER SPICED CRANBERRY ZERO SUGAR</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+              <div class="col text-center m-auto pt-5">
+                <h6>© 2023 The Coca-Cola Company. All Rights reserved</h6>
+              </div>
+        </div>
+    </div>
+</footer>
+    
+
+<!------------footer - 2  display only at xl and above---------------->
+
+<footer class="text-a bg-success py-4 text-white  d-none d-xl-block">
+    <div class="container">
+        <div class="rows d-flex  p-1  justify-content-center">
+            <div class=" border-2 px-3  border-2 border-end text-center">
+                <h6 class="ft-text-1">Support Center</h6> 
+            </div>
+            <div class="border-2 px-3  border-2 border-end">
+                <h6 class="ft-text-1">Terms</h6>
+            </div>
+            <div class="  border-2 px-3  border-2 border-end">
+                <h6 class="ft-text-1">Privacy</h6>
+            </div>
+            <div class=" b border-2 px-3  border-2 border-end">
+                <h6 class="ft-text-1">California Notice at Collection</h6>
+            </div>
+            <div class="  border-2 px-3  border-2 border-end">
+                <h6 class="ft-text-1">Do Not Sell or Share My Personal Information</h6>
+            </div>
+            <div class="  border-2 px-3  border-2 border-end">
+                <h6 class="ft-text-1">Sitemap</h6>
+            </div>
+            <div class="  border-2 px-3 border-2 border-end">
+                <h6 class="ft-text-1">Rules</h6>
+            </div>
+        </div>
+    </div>    
+</footer>
+                    
+
+<!----------------footer same display only at xl and below ---------------->
+
+<footer class=" bg-success py-2 text-white  d-block d-xl-none ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 border-bottom ">
+                <h6 class="text-center ft-text-1">Support Center</h6>
+            </div>
+            <div class="col-xl-1  border-bottom ">
+                <h6 class="text-center ft-text-1">Terms</h6>
+            </div>
+            <div class="col-xl-1  border-bottom ">
+                <h6 class="text-center ft-text-1">Privacy</h6>
+            </div>
+            <div class="col-xl-3 border-bottom ">
+                <h6 class="text-center ft-text-1">California Notice at Collection</h6>
+            </div>
+            <div class="col-xl-3 border-bottom ">
+                <h6 class="text-center ft-text-1">Do Not Sell or Share My Personal Information</h6>
+            </div>
+            <div class="col-xl-1  border-bottom ">
+                <h6 class="text-center ft-text-1">Sitemap</h6>
+            </div>
+            <div class="col-xl-1 border-bottom border-2 ">
+                <h6 class="text-center ft-text-1">Rules</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+   
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-dark modal-btn-head-head">               
+                <button type="button " class="btn-close close-btn-modal text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+               <div class="container">
+                   <div class="row ">
+                        <div class="col-12 col-lg-2 ">
+                            <div style="width: 120px; height:120px;" class="m-auto">
+                                <img src="Images/11963027.jpg" alt="" class="img-fluid border-3 border-dark">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 pt-lg-5">
+                            <div class="dropdown">
+                                <label for="" class="form-label">BRAND:</label><br>
+                                <a class="btn btn-secondary dropdown-toggle bg-dark border-3 rounded-0 dr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sprite
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3  pt-lg-5">
+                            <div class="dropdown">
+                                <label for="" class="form-label">FLAVOUR:</label><br>
+                                <a class="btn btn-secondary dropdown-toggle bg-dark border-3 rounded-0 dr " href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sprite
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2  pt-lg-5">
+                            <div class="dropdown">
+                                <label for="" class="form-label">SIZE:</label><br>
+                                <a class="btn btn-secondary dropdown-toggle bg-dark border-3 rounded-0 dr" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sprite
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                   </div>
+               </div>
+            </div>
+            <div class="modal-body p-0">
+                <div class="container-fluid p-3 bg-secondary">
+                    <p>Can’t find your favorite beverage? We are working on it! Please check back later as we are working hard to ensure that
+                    our products are always available, both online and in your local store. Thank you for your understanding during this
+                    unprecedented time.</p>
+                </div>
+                <div class="container-fluid bg-success p-2 d-flex justify-content-justify-content-evenly">
+                    <h4 class="fw-bold text-dark pe-3" style="width: 20%;">FIND ONLINE</h4>
+                    <h4 class="text-white "  style="width: 20%;">FIND NEARBY</h4>
+                    <div class="input-group">
+                        <div class="input-group-text">
+                            <i class="bi bi-crosshair"></i>  
+                        </div>
+                        <input type="text" id="text" placeholder="Enter your location" class="form-control">
+                        <div class="input-group-text">
+                            <i class="bi bi-search"></i>
+                        </div>
+                    </div> 
+                </div>
+                <div class="container-fluid ">
+                    <div class="row ">
+                        <div class="col-12 col-lg-6   overflowset">
+                            <div class="row">
+                                <div class="col p-4 d-flex">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="Images/7059.png" alt="">
+                                        </div>
+                                        <div class="col-4 pt-2">
+                                            <h5>Out of stock</h5>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-primary fw-bold rounded-0 bg-dark px-4 py-1">VIEW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-4 d-flex">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img  class="img-fluid" src="Images/6150715.png" alt="">
+                                        </div>
+                                        <div class="col-4 pt-2">
+                                            <h5>Out of stock</h5>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-primary rounded-0 bg-dark px-4 py-1">VIEW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-4 d-flex">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="Images/167.png" alt="">
+                                        </div>
+                                        <div class="col-4 pt-2">
+                                            <h5>Out of stock</h5>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn btn-primary fw-bold bg-dark rounded-0 px-4 py-1">VIEW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p-4 d-flex">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img class="img-fluid" src="Images/189.png" alt="">
+                                        </div>
+                                        <div class="col-4 pt-2">
+                                            <h5>Out of stock</h5>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn fw-bold bg-success rounded-0 px-4 py-1 px-3" >BUY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-6 bg-secondary d-none d-lg-block">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52952736.27407169!2d-161.97242213690663!3d35.898541446585334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1702476787395!5m2!1sen!2sin"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"  ></iframe>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="modal-footer bg-success">
+                <div class="container-fluid ">
+                    <div class="container">
+                        <div class="row">
+                             <div class="col-12 col-lg-6 m-md-auto">
+                                <div class="d-flex justify-content-sm-center modal-footer-img">
+                                    <img class="img-fluid" src="Images/xs_PriceSpider_Colorized_Final2.png" alt="">
+                                </div>
+                             </div>
+                             <div class="col-12 col-lg-6 text-sm-center text-lg-end m-sm-auto">
+                                <p>© PriceSpider 2005-2023 <a class="text-dark" href="text-white">PriceSpider Terms of Service</a> </p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
