@@ -1,8 +1,12 @@
 html{
     font-size: 16px;
 }
-.navbar{
-
+.head-link:hover{
+    color: #000;
+  
+}
+.head-link{
+    color: #fff;
 }
 .logo{
         min-width: 25px;
@@ -138,8 +142,14 @@ footer li{
     font-size: 3vw;
 }
 .cr-sub-title{
-    font-size: 2.9vw;
+    font-size: 2.7vw;
+}
+.cr-sub-title:hover{
+    text-decoration: underline;
 }
 .cr-para{
  font-size: 1.7vw;   
+}
+.contact-icon{
+    font-size: 1.5rem;
 }
