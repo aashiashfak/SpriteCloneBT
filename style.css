@@ -143,16 +143,16 @@ footer li{
      font-size: 1.3vh;
 }
 .cr-title{
-    font-size: 4vh;
+    font-size: 2.2vh;
 }
 .cr-sub-title{
-    font-size: 2.9vh;
+    font-size: 1.9vh;
 }
 .cr-sub-title:hover{
     text-decoration: underline;
 }
 .cr-para{
- font-size: 1.8vh;   
+ font-size: 1.3vh;   
 }
 .contact-icon{
     color: #fff;
