@@ -75,7 +75,7 @@ footer li{
 }
 .shop-now-btn{
     background-color: #ffd100;
-    width: 19rem;
+    width: 31vw;
     font-size: 2vw;
 }
 .shop-now-btn:hover{
@@ -89,7 +89,7 @@ footer li{
     background-color: #000;
 }
 .ex-btn{
-    font-size: 1.9vh;
+    font-size: 12px;
 }
 .ex-btn:hover{
     opacity: 0.5;;
@@ -134,22 +134,25 @@ footer li{
 
 
 .intro-text-c{
-    font-size: 4vw;
+    font-size: 3rem;
+}
+.sub-text-c{
+    font-size: 1rem;
 }
 .pr-title{
-     font-size: 2.7vw;
+     font-size: 1.3vh;
 }
 .cr-title{
-    font-size: 3vw;
+    font-size: 4vh;
 }
 .cr-sub-title{
-    font-size: 2.7vw;
+    font-size: 2.9vh;
 }
 .cr-sub-title:hover{
     text-decoration: underline;
 }
 .cr-para{
- font-size: 1.7vw;   
+ font-size: 1.8vh;   
 }
 .contact-icon{
     color: #fff;
@@ -158,4 +161,10 @@ footer li{
     z-index: 1;
     top: 21px;
     right: 3%;
+}
+.social-icons img{
+    width: 20px;
+}
+.ft-text-1{
+    font-size: 2vh;
 }
